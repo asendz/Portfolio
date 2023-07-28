@@ -15,6 +15,6 @@ You can find me on Twitter [@asen_sec](https://twitter.com/asen_sec).
 
 ## Public Smart Contract Security Competitions
 
-| Contest                                                                                           | Date      | Platform | Rank                |                        Official Solution                        |
-| :------------------------------------------------------------------------------------------------ | :-------- | :------- | :------------------ | :-------------------------------------------------------------: |
-| [Race 19](https://ventral.digital/posts/2023/7/3/race-19-of-the-secureum-bootcamp-epoch-infinity) | June 2023 | Secureum | **28th** out of 213 | [Link](https://twitter.com/asen_sec/status/1676505734522056704) |
+| Contest                                                            | Date      | Platform | Rank                |                                       Official Solution                                        |
+| :----------------------------------------------------------------- | :-------- | :------- | :------------------ | :--------------------------------------------------------------------------------------------: |
+| [Race 19](https://twitter.com/asen_sec/status/1676505734522056704) | June 2023 | Secureum | **28th** out of 213 | [Link](https://ventral.digital/posts/2023/7/3/race-19-of-the-secureum-bootcamp-epoch-infinity) |
