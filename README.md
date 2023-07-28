@@ -1,8 +1,10 @@
-# Audits
+# About Asen
+
+My name is Asen and I am an independent blockchain security researcher.
 
 This is a public profile of my experience as a blockchain and smart contract security auditor.
 
-Currently, I am mainly conducting audits at [Sherlock](https://www.sherlock.xyz/).
+Currently, I am actively participating in contest on platforms such as [Sherlock](https://www.sherlock.xyz/), [Code4rena](https://code4rena.com/), and [CodeHawks](https://www.codehawks.com/).
 
 You can find me on Twitter [@asen_sec](https://twitter.com/asen_sec).
 
