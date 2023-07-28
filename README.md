@@ -8,10 +8,10 @@ You can find me on Twitter [@asen_sec](https://twitter.com/abarbatei).
 
 ## Public Audit Contests
 
-| Contest                                                                                  | Platform      | Rank      | Official Report     | My report                                                                                    |
-| :--------------------------------------------------------------------------------------- | :------------ | :-------- | :------------------ | :------------------------------------------------------------------------------------------- | :------------------------------------------: |
-| [Neo Tokyo](https://code4rena.com/contests/2023-03-neo-tokyo-contest)                    | March 2023    | Code4rena | **5th** out of 123  | [Link](https://code4rena.com/reports/2023-03-neotokyo)                                       | [Link](reports/2023-03-neo-tokyo-contest.md) |
-| [OlympusDAO: Single Sided Liquidity Vaults](https://app.sherlock.xyz/audits/contests/50) | February 2023 | Sherlock  | **11th** out of 154 | [Link](https://github.com/sherlock-audit/2023-02-olympus-judging/blob/main/Audit_Report.pdf) |      [Link](reports/2023-02-olympus.md)      |
+| Contest                                                                                  | Platform  | Rank                | Official Report                                                                              | My report                                    |
+| :--------------------------------------------------------------------------------------- | :-------- | :------------------ | :------------------------------------------------------------------------------------------- | :------------------------------------------- |
+| [Neo Tokyo](https://code4rena.com/contests/2023-03-neo-tokyo-contest)                    | Code4rena | **5th** out of 123  | [Link](https://code4rena.com/reports/2023-03-neotokyo)                                       | [Link](reports/2023-03-neo-tokyo-contest.md) |
+| [OlympusDAO: Single Sided Liquidity Vaults](https://app.sherlock.xyz/audits/contests/50) | Sherlock  | **11th** out of 154 | [Link](https://github.com/sherlock-audit/2023-02-olympus-judging/blob/main/Audit_Report.pdf) | [Link](reports/2023-02-olympus.md)           |
 
 ## Public Smart Contract Security Competitions
 
