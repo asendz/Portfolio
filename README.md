@@ -4,7 +4,7 @@ This is a public profile of my experience as a blockchain and smart contract sec
 
 Currently, I am mainly conducting audits at [Sherlock](https://www.sherlock.xyz/).
 
-You can find me on Twitter [@asen_sec](https://twitter.com/abarbatei).
+You can find me on Twitter [@asen_sec](https://twitter.com/asen_sec).
 
 ## Public Audit Contests
 
