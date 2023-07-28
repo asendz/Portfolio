@@ -1,4 +1,4 @@
-# About Asen
+# About me
 
 My name is Asen and this is a public profile of my experience as an independent blockchain security researcher.
 
