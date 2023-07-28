@@ -18,10 +18,10 @@ You can find me on Twitter [@asen_sec](https://twitter.com/asen_sec).
 Judging contests are held at Sherlock after a regular audit contest ends. The participant in the judging contests help Sherlock by identifying the valid vulnerabilities and sorting them with their duplicates(if any).
 | Contest | Rank | Link to leaderboard |
 | :------- | :---------- | :------- |
-| Blueberry Update#2 | 1/42 | [Link](https://audits.sherlock.xyz/contests/77/judging-leaderboard) |
-| Footium | 3/98 | [Link](https://audits.sherlock.xyz/contests/71/judging-leaderboard) |
-| Notional Update #2 | 2/39 | [Link]() |
-| Blueberry | 6/119 | [Link]() |
+| Blueberry Update#2 | **1** out of 42 | [Link](https://audits.sherlock.xyz/contests/77/judging-leaderboard) |
+| Footium | **3** out of 98 | [Link](https://audits.sherlock.xyz/contests/71/judging-leaderboard) |
+| Notional Update #2 | **2** out of 39 | [Link]() |
+| Blueberry | **6** out of 119 | [Link]() |
 
 ## Smart Contract Security Competitions
 
