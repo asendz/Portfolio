@@ -1,7 +1,7 @@
 # What is Footium?
 
 Footium is a multiplayer football management game where players own and manage their own digital football club(NFT).
-Description
+
 [Link to the contest](https://audits.sherlock.xyz/contests/71)
 
 # Issues found by Asen
