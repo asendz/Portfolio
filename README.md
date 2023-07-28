@@ -8,10 +8,10 @@ You can find me on Twitter [@asen_sec](https://twitter.com/asen_sec).
 
 ## Public Audit Contests
 
-| Contest                                                               | Platform  | Type of protocol                                    | # of findgings and severity                            | My report                                    |
-| :-------------------------------------------------------------------- | :-------- | :-------------------------------------------------- | :----------------------------------------------------- | :------------------------------------------- |
-| [Neo Tokyo](https://code4rena.com/contests/2023-03-neo-tokyo-contest) | Code4rena | **5th** out of 123                                  | [Link](https://code4rena.com/reports/2023-03-neotokyo) | [Link](reports/2023-03-neo-tokyo-contest.md) |
-| [Surge](https://audits.sherlock.xyz/contests/51)                      | Sherlock  | Borrow, lend, long or short any token on any chain. | 1 High                                                 | [Link](reports/2023-02-olympus.md)           |
+| Contest                                                               | Platform  | Type of protocol   | # of findgings and severity                            | My report                                    |
+| :-------------------------------------------------------------------- | :-------- | :----------------- | :----------------------------------------------------- | :------------------------------------------- |
+| [Neo Tokyo](https://code4rena.com/contests/2023-03-neo-tokyo-contest) | Code4rena | **5th** out of 123 | [Link](https://code4rena.com/reports/2023-03-neotokyo) | [Link](reports/2023-03-neo-tokyo-contest.md) |
+| [Surge](https://audits.sherlock.xyz/contests/51)                      | Sherlock  | Lending protocol   | 1 High                                                 | [Link](reports/2023-02-olympus.md)           |
 
 ## Public Smart Contract Security Competitions
 
