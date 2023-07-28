@@ -5,9 +5,9 @@ Description
 
 # Issues found by Asen
 
-| Severity | Title       | Link                         |
-| :------- | :---------- | :--------------------------- |
-| High     | Issue title | Link to the official finding |
+| Severity | Title       | Link     |
+| :------- | :---------- | :------- |
+| High     | Issue title | [Link]() |
 
 # 1. Issue title
 
