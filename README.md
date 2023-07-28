@@ -15,7 +15,7 @@ You can find me on Twitter [@asen_sec](https://twitter.com/asen_sec).
 
 ## Judging Contests
 
-Judging contests are held at Sherlock after a regular audit contest ends. The participant in the judging contests help Sherlock by identifying the valid vulnerabilities and sorting them with their duplicates(if any).
+Judging contests are held at Sherlock after a regular audit contest ends. The participants in the judging contests help Sherlock by identifying the valid vulnerabilities and sorting them with their duplicates(if any).
 | Contest | Rank | Link to leaderboard |
 | :------- | :---------- | :------- |
 | Blueberry Update#2 | **1st** out of 42 | [Link](https://audits.sherlock.xyz/contests/77/judging-leaderboard) |
