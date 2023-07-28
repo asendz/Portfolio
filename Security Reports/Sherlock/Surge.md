@@ -1,8 +1,8 @@
-# [Surge](https://audits.sherlock.xyz/contests/51)
-
 # What is Surge?
 
 Surge is a hyperstructure lending protocol that allows anyone to deployer their own lending pool. It utilizes a novel mechanism called Algorithmic Collateral Ratios in order to eliminate the need for price oracles in DeFi lending.
+
+[Link to the contest](https://audits.sherlock.xyz/contests/51)
 
 # Issues found by Asen
 
