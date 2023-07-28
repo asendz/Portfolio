@@ -6,12 +6,11 @@ Description
 
 # Issues found by Asen
 
-| Severity                                                                     | Title                                                  | Link                                                                         |
-| :--------------------------------------------------------------------------- | :----------------------------------------------------- | :--------------------------------------------------------------------------- |
-| High                                                                         | Club buyers on secondary marketplace could get scammed |
-| [Link](https://github.com/sherlock-audit/2023-04-footium-judging/issues/166) |
-| Medium                                                                       | Unsafe ERC20.transfer() - unchecked return values      | [Link](https://github.com/sherlock-audit/2023-04-footium-judging/issues/149) |
-| Medium                                                                       | Use safeMint instead of mint for ERC721                | [Link](https://github.com/sherlock-audit/2023-04-footium-judging/issues/67)  |
+| Severity | Title                                                  | Link                                                                         |
+| :------- | :----------------------------------------------------- | :--------------------------------------------------------------------------- |
+| High     | Club buyers on secondary marketplace could get scammed | [Link](https://github.com/sherlock-audit/2023-04-footium-judging/issues/166) |
+| Medium   | Unsafe ERC20.transfer() - unchecked return values      | [Link](https://github.com/sherlock-audit/2023-04-footium-judging/issues/149) |
+| Medium   | Use safeMint instead of mint for ERC721                | [Link](https://github.com/sherlock-audit/2023-04-footium-judging/issues/67)  |
 
 # 1. Club buyers on secondary marketplace could get scammed
 
