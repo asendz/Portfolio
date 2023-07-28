@@ -8,10 +8,10 @@ You can find me on Twitter [@asen_sec](https://twitter.com/asen_sec).
 
 ## Audit Contests
 
-| Contest                                            | Platform | Type of protocol  | # of findgings and severity | My report                                                                                    |
-| :------------------------------------------------- | :------- | :---------------- | :-------------------------- | :------------------------------------------------------------------------------------------- |
-| [Footium](https://audits.sherlock.xyz/contests/71) | Sherlock | NFT Football game | 1 High, 2 Medium            | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Sherlock/Footium.md) |
-| [Surge](https://audits.sherlock.xyz/contests/51)   | Sherlock | Lending protocol  | 1 High                      | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Sherlock/Surge.md)   |
+| Contest                                            | Platform | Type of protocol  | # of findings and severity | My report                                                                                    |
+| :------------------------------------------------- | :------- | :---------------- | :------------------------- | :------------------------------------------------------------------------------------------- |
+| [Footium](https://audits.sherlock.xyz/contests/71) | Sherlock | NFT Football game | 1 High, 2 Medium           | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Sherlock/Footium.md) |
+| [Surge](https://audits.sherlock.xyz/contests/51)   | Sherlock | Lending protocol  | 1 High                     | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Sherlock/Surge.md)   |
 
 ## Judging Contests
 
