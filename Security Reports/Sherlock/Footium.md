@@ -26,11 +26,11 @@ After talking with the sponsor, he confirmed that the value of a club is based m
 
 Let's consider the following scenario:
 
-I own a club with a lot of very valuable players and I list it on a secondary marketplace
-A buyer comes in and submits a transaction to buy my club expecting to get all the very valuable players that belong to that club
-However, I am monitoring the mem pool so when I see this transaction, I front-run it with my own which transfers all the players out of the escrow contract
-Buyer receives an expensive club NFT but all the players are not there already
-Buyer is left with an empty club although one of the main reasons he decided to buy it was because of the club's players.
+- I own a club with a lot of very valuable players and I list it on a secondary marketplace
+- A buyer comes in and submits a transaction to buy my club expecting to get all the very valuable players that belong to that club
+- However, I am monitoring the mem pool so when I see this transaction, I front-run it with my own which transfers all the players out of the escrow contract
+- Buyer receives an expensive club NFT but all the players are not there already
+- Buyer is left with an empty club although one of the main reasons he decided to buy it was because of the club's players.
 
 Also, the attacker could continue doing this, luring buyers into buying new clubs based on the valuable players they have. Eventually leading to either a lot of people getting scammed and/or this becomes well-known and nobody will want to buy clubs on the secondary marketplaces. At least not for their players.
 
