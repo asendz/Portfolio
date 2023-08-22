@@ -3,7 +3,7 @@
 Description
 [Link to the contest](https://audits.sherlock.xyz/contests/51)
 
-# Issues found by Asen
+# Issues found
 
 | Severity | Title       | Link     |
 | :------- | :---------- | :------- |
