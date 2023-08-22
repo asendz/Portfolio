@@ -10,11 +10,11 @@ ArtStakes is a protocol seeking to unlock usecases for NFT's like DAO-fying rare
 
 # Findings table
 
-| Severity | ID       | Title                                                                                                                                 |
-| :------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------ |
-| High     | [H-01] | Re-entrancy in `mintXNFT` in `L2ArtStakes.sol` letting anyone able to mint a lot of NFTs on the L2 network                            |
-| High     | [H-02] | Only 75% of the total supply of ERC20 tokens(shares) are needed to claim the original NFT opening a lot of opportunities for scamming |
-| High     | [H-03] | User can get a free corresponding NFT on the L2 by abusing old metadata                                                               |
+| Severity | ID     | Title                                                                                                                                 |
+| :------- | :----- | :------------------------------------------------------------------------------------------------------------------------------------ |
+| High     | [H-01  | Re-entrancy in `mintXNFT` in `L2ArtStakes.sol` letting anyone able to mint a lot of NFTs on the L2 network                            |
+| High     | [H-02  | Only 75% of the total supply of ERC20 tokens(shares) are needed to claim the original NFT opening a lot of opportunities for scamming |
+| High     | [H-03  | User can get a free corresponding NFT on the L2 by abusing old metadata                                                               |
 | Low      | [L-01] | Pragma set as ^0.8.14 which can lead to problems on Optimism and other L2s                                                            |
 | Low      | [L-02] | Single-step process for critical ownership transfer is risky                                                                          |
 | Low      | [L-03] | Hardcoded values for `crossDomainMessengerAddr` and `xorigin` in L1ArtStakes.sol                                                      |
