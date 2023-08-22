@@ -1,4 +1,4 @@
-A time-boxed security review of the ArtStakes protocol was done, with a focus on the security aspects of the implementation.
+A time-boxed security review of the **ArtStakes** protocol was done, with a focus on the security aspects of the implementation.
 
 A smart contract security review can never verify a complete absence of vulnerabilities nor it could guarantee finding any of them. The only guarantee is that I've spent a sufficient amount of time reviewing and understanding the protocol and did my best to find security breaches and mistakes.
 
@@ -6,7 +6,7 @@ Commit hash - [62348787bd3099a564099e8f8779d124d389eaf6](https://github.com/owl1
 
 # What is ArtStakes?
 
-Description
+ArtStakes is a protocol seeking to unlock usecases for NFT's like DAO-fying rare collectibles on chain by locking them up on L1 and receiving corresponding ERC721 or ERC20 tokens on L2. An NFT owner can turn it into a DAO or sell shares of it to people that actually want it.
 
 # Findings table
 
