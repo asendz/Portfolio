@@ -10,7 +10,7 @@ ArtStakes is a protocol seeking to unlock usecases for NFT's like DAO-fying rare
 
 # Findings table
 
-| Severity | ID <img width=80/> |                                                                 Title                                                                 |
+| Severity | ID <img width=70/> |                                                                 Title                                                                 |
 | :------: | :----------------: | :-----------------------------------------------------------------------------------------------------------------------------------: |
 |   High   |       [H-01]       |              Re-entrancy in `mintXNFT` in `L2ArtStakes.sol` letting anyone able to mint a lot of NFTs on the L2 network               |
 |   High   |       [H-02]       | Only 75% of the total supply of ERC20 tokens(shares) are needed to claim the original NFT opening a lot of opportunities for scamming |
