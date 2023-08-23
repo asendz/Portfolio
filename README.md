@@ -6,6 +6,12 @@ Currently, I am actively participating in contests on platforms such as [Sherloc
 
 You can find me on Twitter [@asen_sec](https://twitter.com/asen_sec).
 
+## Private Audits
+
+| Name                                                      | Type of protocol | # of findings and severity | Report   |
+| :-------------------------------------------------------- | :--------------- | :------------------------- | :------- |
+| [ArtStakes](https://github.com/owl11/ArtStakes/tree/main) | NFT, Bridge      | 3 High, 3 Low              | [Link]() |
+
 ## Audit Contests
 
 | Contest                                            | Platform | Type of protocol  | # of findings and severity | My report                                                                                    |
