@@ -8,9 +8,9 @@ You can find me on Twitter [@asen_sec](https://twitter.com/asen_sec).
 
 ## Private Audits
 
-| Name                                                      | Type of protocol | # of findings and severity | Report   |
-| :-------------------------------------------------------- | :--------------- | :------------------------- | :------- |
-| [ArtStakes](https://github.com/owl11/ArtStakes/tree/main) | NFT, Bridge      | 3 High, 3 Low              | [Link]() |
+| Name                                                      | Type of protocol | # of findings and severity | Report                                                                                                 |
+| :-------------------------------------------------------- | :--------------- | :------------------------- | :----------------------------------------------------------------------------------------------------- |
+| [ArtStakes](https://github.com/owl11/ArtStakes/tree/main) | NFT, Bridge      | 3 High, 3 Low              | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Private%20audits/ArtStakes.md) |
 
 ## Audit Contests
 
