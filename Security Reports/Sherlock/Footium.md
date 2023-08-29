@@ -4,7 +4,7 @@ Footium is a multiplayer football management game where players own and manage t
 
 [Link to the contest](https://audits.sherlock.xyz/contests/71)
 
-# Issues found by Asen
+# Issues found by me
 
 | Severity | Title                                                  | Link                                                                         |
 | :------- | :----------------------------------------------------- | :--------------------------------------------------------------------------- |

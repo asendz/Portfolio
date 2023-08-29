@@ -4,7 +4,7 @@ Surge is a hyperstructure lending protocol that allows anyone to deployer their 
 
 [Link to the contest](https://audits.sherlock.xyz/contests/51)
 
-# Issues found by Asen
+# Issues found by me
 
 | Severity | Title                                                                                        | Link                                                                       |
 | :------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------- |
