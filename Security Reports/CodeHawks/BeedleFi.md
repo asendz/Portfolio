@@ -6,18 +6,18 @@ Oracle free peer to peer perpetual lending protocol.
 
 # Issues found by me
 
-| Severity | Title                                                                                                       | Link     |
-| :------- | :---------------------------------------------------------------------------------------------------------- | :------- |
-| High     | Lender.sol#buyLoan - Anyone can buy loans on behalf of other lenders, potentially draining all of the pools | [Link]() |
-| High     | Lender can change the auction length and take borrowers collateral very fast                                | [Link]() |
-| High     | Fees.sol#sellProfits is lacking access control letting anyone cause loss of funds for the protocol          | [Link]() |
-| High     | Fees.sol#sellProfits - no slippage protection leaves the function vulnerable to sandwich attacks            | [Link]() |
-| High     | In Fees.sol - hardcoded address of ISwapRouter                                                              | [Link]() |
-| Medium   | Borrower can end up with a lot bigger interest rate on their loan than expected                             | [Link]() |
-| Medium   | Fees.sol#sellProfits won't work if a pool with the hardcoded fee tier doesn't exist                         | [Link]() |
-| Medium   | Fees.sol#sellProfits - using block.timestamp as expiration deadline offers no protection                    | [Link]() |
-| Medium   | Single-step process for critical ownership transfer is risky                                                | [Link]() |
-| Medium   | Pragma set incorrectly as ^0.8.19 which can lead to problems on Arbitrum                                    | [Link]() |
+| Severity | Title                                                                                                       | Link                                                         |
+| :------- | :---------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------- |
+| High     | Lender.sol#buyLoan - Anyone can buy loans on behalf of other lenders, potentially draining all of the pools | [Link](https://github.com/Cyfrin/2023-07-beedle/issues/533)  |
+| High     | Lender can change the auction length and take borrowers collateral very fast                                | [Link](https://github.com/Cyfrin/2023-07-beedle/issues/1440) |
+| High     | Fees.sol#sellProfits is lacking access control letting anyone cause loss of funds for the protocol          | [Link](https://github.com/Cyfrin/2023-07-beedle/issues/393)  |
+| High     | Fees.sol#sellProfits - no slippage protection leaves the function vulnerable to sandwich attacks            | [Link](https://github.com/Cyfrin/2023-07-beedle/issues/387)  |
+| High     | In Fees.sol - hardcoded address of ISwapRouter                                                              | [Link](https://github.com/Cyfrin/2023-07-beedle/issues/376)  |
+| Medium   | Borrower can end up with a lot bigger interest rate on their loan than expected                             | [Link](https://github.com/Cyfrin/2023-07-beedle/issues/505)  |
+| Medium   | Fees.sol#sellProfits won't work if a pool with the hardcoded fee tier doesn't exist                         | [Link](https://github.com/Cyfrin/2023-07-beedle/issues/389)  |
+| Medium   | Fees.sol#sellProfits - using block.timestamp as expiration deadline offers no protection                    | [Link](https://github.com/Cyfrin/2023-07-beedle/issues/382)  |
+| Medium   | Single-step process for critical ownership transfer is risky                                                | [Link](https://github.com/Cyfrin/2023-07-beedle/issues/372)  |
+| Medium   | Pragma set incorrectly as ^0.8.19 which can lead to problems on Arbitrum                                    | [Link](https://github.com/Cyfrin/2023-07-beedle/issues/371)  |
 
 # 1. Lender.sol#buyLoan - Anyone can buy loans on behalf of other lenders, potentially draining all of the pools
 
