@@ -31,7 +31,7 @@ User has a NFT on L1 -> Registers it's metadata via `registerMetaData` -> `stake
 
 ## Summary
 
-The current implementation of `mintXNFT` doesn't follow the Checks-Effects-Interactions pattern and calls `safeMint` which is vulnerable to re-entrancy because of the `_beforeTokenTransfer` and `_afterTokenTransfer` hooks implemented in the OpenZeppelin's `safeMint` function.
+The current implementation of `mintXNFT` doesn't follow the Checks-Effects-Interactions pattern and calls `safeMint` which is vulnerable to re-entrancy because of the of a call to the `msg.sender` contract, implemented in the OpenZeppelin's `safeMint` function, that checks whether the contract can receive NFTs.
 
 ```javascript
 function mintXNFT() public returns (bool) {
@@ -122,7 +122,9 @@ which calls the `msg.sender` contract on line:
 IERC721Receiver(to).onERC721Received(_msgSender(), from, tokenId, data) returns (bytes4 retval)
 ```
 
-A malicious user could have created a smart contract that implements `onERC721Received` to re-enter in the `mintXNFT` function. This is possible because the line which set's if a token is already minted is called only after the call to `safeMint`.
+A malicious user could have created a smart contract that implements `onERC721Received` to re-enter in the `mintXNFT` function. This is possible because the line which sets if a token is already minted is called only after the call to `safeMint`.
+
+Also, because of the counter being incremented in the custom `safeMint` function, tokens with incrementing `tokenId` are minted so there is not a problem of minting tokens with the same id and the transaction reverting.
 
 ## Impact
 
