@@ -91,32 +91,38 @@ function _safeMint(address to, uint256 tokenId, bytes memory data) internal virt
             "ERC721: transfer to non ERC721Receiver implementer"
         );
     }
-function _mint(address to, uint256 tokenId) internal virtual {
-        require(to != address(0), "ERC721: mint to the zero address");
-        require(!_exists(tokenId), "ERC721: token already minted");
+```
 
-        _beforeTokenTransfer(address(0), to, tokenId, 1);
+which calls the internal function `_checkOnERC721Received`:
 
-        // Check that tokenId was not minted by `_beforeTokenTransfer` hook
-        require(!_exists(tokenId), "ERC721: token already minted");
-
-        unchecked {
-            // Will not overflow unless all 2**256 token ids are minted to the same owner.
-            // Given that tokens are minted one by one, it is impossible in practice that
-            // this ever happens. Might change if we allow batch minting.
-            // The ERC fails to describe this case.
-            _balances[to] += 1;
+```javascript
+function _checkOnERC721Received(address from, address to, uint256 tokenId, bytes memory data) private {
+        if (to.code.length > 0) {
+            try IERC721Receiver(to).onERC721Received(_msgSender(), from, tokenId, data) returns (bytes4 retval) {
+                if (retval != IERC721Receiver.onERC721Received.selector) {
+                    revert ERC721InvalidReceiver(to);
+                }
+            } catch (bytes memory reason) {
+                if (reason.length == 0) {
+                    revert ERC721InvalidReceiver(to);
+                } else {
+                    /// @solidity memory-safe-assembly
+                    assembly {
+                        revert(add(32, reason), mload(reason))
+                    }
+                }
+            }
         }
-
-        _owners[tokenId] = to;
-
-        emit Transfer(address(0), to, tokenId);
-
-        _afterTokenTransfer(address(0), to, tokenId, 1);
     }
 ```
 
-A malicious user could have created a smart contract that implements `_afterTokenTransfer` to re-enter in the `mintXNFT` function. This is possible because the line which set's if a token is already minted is called only after the call to `safeMint`.
+which calls the `msg.sender` contract on line:
+
+```javascript
+IERC721Receiver(to).onERC721Received(_msgSender(), from, tokenId, data) returns (bytes4 retval)
+```
+
+A malicious user could have created a smart contract that implements `onERC721Received` to re-enter in the `mintXNFT` function. This is possible because the line which set's if a token is already minted is called only after the call to `safeMint`.
 
 ## Impact
 
