@@ -1,5 +1,5 @@
 # What is Ondo Finance?
-The scope of this audit was `rUSDY` - nterest bearing stablecoin, and can be thought of as a rebasing variant of Ondo's USDY (Ondo U.S. Dollar Yield) token. Individuals who hold USDY are able to wrap their USDY tokens and receive an amount of rUSDY tokens proportional to the USD value wrapped. Each rUSDY token is worth 1 dollar, as USDY accrues value (appreciates in price) rUSDY will rebase accordingly.
+The scope of this audit was `rUSDY` - interest bearing stablecoin, and can be thought of as a rebasing variant of Ondo's USDY (Ondo U.S. Dollar Yield) token. Individuals who hold USDY are able to wrap their USDY tokens and receive an amount of rUSDY tokens proportional to the USD value wrapped. Each rUSDY token is worth 1 dollar, as USDY accrues value (appreciates in price) rUSDY will rebase accordingly.
 
 Where USDY is a tokenized note secured by short-term US Treasuries and bank demand deposits
 
@@ -9,11 +9,9 @@ Where USDY is a tokenized note secured by short-term US Treasuries and bank dema
 
 | Severity | Title                                                                                        | Link                                                                       |
 | :------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------- |
-| Medium     | Admin can't burn tokens from blocklisted addresses because of a check in _beforeTokenTransfer | [Link]() |
+| Medium     | Admin can't burn tokens from blocklisted addresses because of a check in `_beforeTokenTransfer` | [Link]() |
 
 # 1. Admin can't burn tokens from blocklisted addresses because of a check in `_beforeTokenTransfer`
-
-## Vulnerability details
 
 ## Impact
 The function `burn` is made so the admin can burn rUSDY tokens from ***any account*** - this is stated in the comments. However, the admin can't burn tokens if the account from which he's trying to burn tokens is blocklisted/sanctioned/not on the allowlist.
@@ -53,6 +51,7 @@ function _burnShares(
   uint256 postRebaseTokenAmount = getRUSDYByShares(_sharesAmount);
 
   return totalShares;
+}
 
 ```
 We can see that it calls `_beforeTokenTransfer(_account, address(0), _sharesAmount)`
