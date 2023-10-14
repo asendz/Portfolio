@@ -9,7 +9,7 @@ Where USDY is a tokenized note secured by short-term US Treasuries and bank dema
 
 | Severity | Title                                                                                        | Link                                                                       |
 | :------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------- |
-| Medium     | Admin can't burn tokens from blocklisted addresses because of a check in `_beforeTokenTransfer` | [Link]() |
+| Medium     | Admin can't burn tokens from blocklisted addresses because of a check in `_beforeTokenTransfer` | [Link](https://code4rena.com/reports/2023-09-ondo#m-04-admin-cant-burn-tokens-from-blocklisted-addresses-because-of-a-check-in-_beforetokentransfer-) |
 
 # 1. Admin can't burn tokens from blocklisted addresses because of a check in `_beforeTokenTransfer`
 
