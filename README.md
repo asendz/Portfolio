@@ -2,7 +2,7 @@
 
 My name is Asen and this is a public profile of my experience as an independent blockchain security researcher.
 
-Currently, I am actively participating in contests on platforms such as [Sherlock](https://www.sherlock.xyz/), [Code4rena](https://code4rena.com/), and [CodeHawks](https://www.codehawks.com/).
+Currently, I am actively participating in contests on platforms such as [Code4rena](https://code4rena.com/@0xAsen), [Sherlock](https://audits.sherlock.xyz/watson/0xAsen), and [CodeHawks](https://www.codehawks.com/profile/clk3vjbfh000kkx08mg4x5ug0).
 
 You can find me on Twitter [@asen_sec](https://twitter.com/asen_sec).
 
@@ -18,6 +18,7 @@ You can find me on Twitter [@asen_sec](https://twitter.com/asen_sec).
 | :----------------------------------------------------------------------- | :-------- | :---------------------------- | :------------------------- | :--------------------------------------------------------------------------------------------- |
 | [Ondo](https://code4rena.com/contests/2023-09-ondo-finance)                         | Code4rena  | RWA rebasing stablecoin              | 1 Medium                     | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Code4rena/Ondo.md)     |
 | [BeedleFi](https://www.codehawks.com/contests/clkbo1fa20009jr08nyyf9wbx) | CodeHawks | Oracle-free perpetual lending | 5 High, 5 Medium           | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/CodeHawks/BeedleFi.md) |
+| [Tangible](https://code4rena.com/contests/2023-08-tangible-caviar)                         | Code4rena  | RWA liquid wrapper              | 1 High, 2 Medium                     | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Code4rena/Tangible.md)     |
 | [Footium](https://audits.sherlock.xyz/contests/71)                       | Sherlock  | NFT Football game             | 1 High, 2 Medium           | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Sherlock/Footium.md)   |
 | [Surge](https://audits.sherlock.xyz/contests/51)                         | Sherlock  | Lending protocol              | 1 High                     | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Sherlock/Surge.md)     |
 
