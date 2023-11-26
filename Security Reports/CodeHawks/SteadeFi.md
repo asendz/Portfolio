@@ -12,7 +12,7 @@ Steadefi provides vaults with automated risk management for earning leveraged yi
 | Medium     | Failed Compound causes DOS to the entire system                              | [Link](https://www.codehawks.com/finding/clpcx1whd001f5ehzjob4e0p5) |
 | Medium     | GMXDeposit - deposit() function passes a wrong flag to gmxOracle.getLpTokenValue()         | [Link](https://www.codehawks.com/finding/clpcx1vyz000n5ehz0n577mkd)  |
 
-# 1. A malicious user can DOS the system leaving it in a perpetual status of "Deposit
+# 1. A malicious user can DOS the system leaving it in a perpetual status of "Deposit"
 
 ## Summary
 
