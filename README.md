@@ -13,10 +13,13 @@ You can find me on Twitter [@asen_sec](https://twitter.com/asen_sec).
 | [ArtStakes](https://github.com/owl11/ArtStakes/tree/main) | NFT, Bridge      | 3 High, 3 Low              | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Private%20audits/ArtStakes.md) |
 
 ## Audit Contests
-
+This is a summary of my experience participating in public audit contests. Some of the placements include:
+- **14th** place in Salty
+- **9th** place in Ondo
+- **11th** place in Footium contest
 | Contest                                                                  | Platform  | Type of protocol              | # of findings and severity | My report                                                                                      |
 | :----------------------------------------------------------------------- | :-------- | :---------------------------- | :------------------------- | :--------------------------------------------------------------------------------------------- |
-| [Salty.io](https://code4rena.com/audits/2024-01-saltyio)                         | Code4rena  | DEX             | 1 High, 3 Medium                    | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/CodeHawks/SteadeFi.md)     |
+| [Salty.io](https://code4rena.com/audits/2024-01-saltyio)                         | Code4rena  | DEX             | 1 High, 3 Medium                    | [Link](hhttps://github.com/asendz/Portfolio/blob/main/Security%20Reports/Code4rena/Salty.md)     |
 | [NextGen](https://code4rena.com/audits/2023-10-nextgen)                         | Code4rena  | Protocol for launching generative art projects on Ethereum              | 2 High                    | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Code4rena/NextGen.md)     |
 | [SteadeFi](https://www.codehawks.com/contests/clo38mm260001la08daw5cbuf)                         | CodeHawks  | Leveraged yield vault w/ GMX              | 1 High, 2 Medium                    | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/CodeHawks/SteadeFi.md)     |
 | [Ondo](https://code4rena.com/contests/2023-09-ondo-finance)                         | Code4rena  | RWA rebasing stablecoin              | 1 Medium                     | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Code4rena/Ondo.md)     |
