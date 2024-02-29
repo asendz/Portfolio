@@ -17,6 +17,7 @@ This is a summary of my experience participating in public audit contests. Some 
 - **14th** place in Salty
 - **9th** place in Ondo
 - **11th** place in Footium contest
+
 | Contest                                                                  | Platform  | Type of protocol              | # of findings and severity | My report                                                                                      |
 | :----------------------------------------------------------------------- | :-------- | :---------------------------- | :------------------------- | :--------------------------------------------------------------------------------------------- |
 | [Salty.io](https://code4rena.com/audits/2024-01-saltyio)                         | Code4rena  | DEX             | 1 High, 3 Medium                    | [Link](hhttps://github.com/asendz/Portfolio/blob/main/Security%20Reports/Code4rena/Salty.md)     |
