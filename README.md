@@ -11,6 +11,7 @@ You can find me on Twitter [@asen_sec](https://twitter.com/asen_sec).
 | Name                                                      | Type of protocol | # of findings and severity | Report                                                                                                 |
 | :-------------------------------------------------------- | :--------------- | :------------------------- | :----------------------------------------------------------------------------------------------------- |
 | [ArtStakes](https://github.com/owl11/ArtStakes/tree/main) | NFT, Bridge      | 3 High, 3 Low              | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Private%20audits/ArtStakes.md) |
+| [EventShares]() | Unlimited upside sports betting     | 1 High, 2 Medium, 4 Low              | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Private%20audits/EventShares.md) |
 
 ## Audit Contests
 This is a summary of my experience participating in public audit contests. Some of the placements include:
