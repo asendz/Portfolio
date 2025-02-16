@@ -12,7 +12,9 @@ Currently, I am actively participating in contests on platforms such as [Code4re
 | [EventShares]() | Unlimited upside sports betting     | 1 High, 2 Medium, 4 Low              | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Private%20audits/EventShares.md) |
 
 ## Audit Contests
-Here’s a highlight of some of my public audit contest placements. This summary reflects my contributions in identifying critical vulnerabilities across various blockchain protocols. For a complete view of my work, you can check out my full profile [here](https://audits.sherlock.xyz/watson/0xAsen).
+Here’s a highlight of some of my public audit contest placements. This summary reflects my contributions in identifying critical vulnerabilities across various blockchain protocols. 
+
+For a complete view of my work, you can check out my full profile [here](https://audits.sherlock.xyz/watson/0xAsen).
 
 | Contest                                                                  | Platform  | Type of protocol              | # of findings and severity | My findings                                                                                      | Language | Placement | 
 | :----------------------------------------------------------------------- | :-------- | :---------------------------- | :------------------------- | :---------------------------- | :------------------------- | :--------------------------------------------------------------------------------------------- |
