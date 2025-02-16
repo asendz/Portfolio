@@ -4,8 +4,6 @@ My name is Asen and this is a public profile of my experience as an independent 
 
 Currently, I am actively participating in contests on platforms such as [Code4rena](https://code4rena.com/@0xAsen), [Sherlock](https://audits.sherlock.xyz/watson/0xAsen), and [CodeHawks](https://www.codehawks.com/profile/clk3vjbfh000kkx08mg4x5ug0).
 
-You can find me on Twitter [@asen_sec](https://twitter.com/asen_sec).
-
 ## Private Audits
 
 | Name                                                      | Type of protocol | # of findings and severity | Report                                                                                                 |
@@ -14,7 +12,7 @@ You can find me on Twitter [@asen_sec](https://twitter.com/asen_sec).
 | [EventShares]() | Unlimited upside sports betting     | 1 High, 2 Medium, 4 Low              | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Private%20audits/EventShares.md) |
 
 ## Audit Contests
-This is a summary of my experience participating in public audit contests.
+Here’s a highlight of some of my public audit contest placements. This summary reflects my contributions in identifying critical vulnerabilities across various blockchain protocols. For a complete view of my work, you can check out my full profile [here](https://audits.sherlock.xyz/watson/0xAsen).
 
 | Contest                                                                  | Platform  | Type of protocol              | # of findings and severity | My findings                                                                                      | Language | Placement | 
 | :----------------------------------------------------------------------- | :-------- | :---------------------------- | :------------------------- | :---------------------------- | :------------------------- | :--------------------------------------------------------------------------------------------- |
@@ -26,4 +24,4 @@ This is a summary of my experience participating in public audit contests.
 
 ## Contacts
 
-I am available for security consulting and smart contract audits. Reach out to me on Twitter [@asen_sec](https://twitter.com/asen_sec).
+You can find me on Twitter [@asen_sec](https://twitter.com/asen_sec).
