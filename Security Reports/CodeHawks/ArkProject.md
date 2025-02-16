@@ -2,12 +2,12 @@
 
 ## Table of contents
 - ### High Risk Findings
-    - ##### H-01. Users that bridged a token from native L2 collection to L1 can't bridge it back
-    - ##### H-02. Admin won't be able to remove certain collections from the whitelist on L2
-    - ##### H-03. If whitelist is off someone can add a lot of collections in the whitelist, DOSing the creation and whitelisting of legitimate collections
+    - #### H-01. Users that bridged a token from native L2 collection to L1 can't bridge it back
+    - #### H-02. Admin won't be able to remove certain collections from the whitelist on L2
+    - #### H-03. If whitelist is off someone can add a lot of collections in the whitelist, DOSing the creation and whitelisting of legitimate collections
 - ### Medium Risk Findings
-    - ##### M-01. A malicious actor can stuck other unsuspecting users' tokens forever
-    - ##### M-02. User will lock his tokens if he passes `use_withdraw_auto` as true when bridging L2 -> L1
+    - #### M-01. A malicious actor can stuck other unsuspecting users' tokens forever
+    - #### M-02. User will lock his tokens if he passes `use_withdraw_auto` as true when bridging L2 -> L1
 
 
 
