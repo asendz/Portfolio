@@ -17,7 +17,7 @@ You can find me on Twitter [@asen_sec](https://twitter.com/asen_sec).
 This is a summary of my experience participating in public audit contests.
 
 | Contest                                                                  | Platform  | Type of protocol              | # of findings and severity | My findings                                                                                      | Language | Placement | 
-| :----------------------------------------------------------------------- | :-------- | :---------------------------- | :------------------------- | :--------------------------------------------------------------------------------------------- |
+| :----------------------------------------------------------------------- | :-------- | :---------------------------- | :------------------------- | :---------------------------- | :------------------------- | :--------------------------------------------------------------------------------------------- |
 | [Chakra](https://code4rena.com/audits/2024-08-chakra)                         | Code4rena  | Bridge infrastructure           | 6 High, 32 Medium                    | Private     | Solidity & Cairo | 4 |
 | [ArkProject](https://codehawks.cyfrin.io/c/2024-07-ark-project)                         | Codehawks  | NFT Bridge             | 3 High, 2 Medium                    | [Link]()     | Solidity & Cairo | 12 |
 | [Salty.io](https://code4rena.com/audits/2024-01-saltyio)                         | Code4rena  | DEX             | 1 High, 3 Medium                    | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Code4rena/Salty.md)     | Solidity | 14 |
