@@ -1,4 +1,4 @@
-# ArkProject: NFT Bridge - Findings Report
+# MagicSea: DEX - Findings Report
 
 ## Table of contents
 - ### High Risk Findings
