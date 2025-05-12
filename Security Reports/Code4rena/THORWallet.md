@@ -2,9 +2,9 @@
 
 ## Table of contents
 - ### High Risk Findings
-    - #### H-01. 
+    - #### H-01. Uncapped TGT deposits leading to oversubscription of claimable TITN
 - ### Medium Risk Findings
-    - #### M-01. 
+    - #### M-01. Persistent `isBridgedTokenHolder` status restricting non-bridged token transfers on Base
 
 # <a id='contest-summary'></a>Contest Summary
 
@@ -15,7 +15,6 @@
 ### Number of findings:
 - High: 1
 - Medium: 1
-- Low: 0
 
 
 # High Risk Findings

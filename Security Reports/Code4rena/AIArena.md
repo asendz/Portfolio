@@ -19,7 +19,6 @@
 
 * High: 4
 * Medium: 0
-* Low: 0
 
 # High Risk Findings
 

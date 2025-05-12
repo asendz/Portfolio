@@ -13,7 +13,6 @@
 ### Number of findings:
 - High: 0
 - Medium: 1
-- Low: 0
 
 # Meidum Risk Findings
 

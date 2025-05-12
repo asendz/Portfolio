@@ -19,7 +19,6 @@
 ### Number of findings:
 - High: 2
 - Medium: 2
-- Low: 0
 
 
 # High Risk Findings
