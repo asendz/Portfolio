@@ -14,7 +14,7 @@
 - High: 0
 - Medium: 1
 
-# Meidum Risk Findings
+# Medium Risk Findings
 
 ## <a id='M-01'></a>M-01. Mixing currency and token units in updateParticipation causes wrong accounting and potential loss of funds
 # Summary
