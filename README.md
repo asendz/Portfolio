@@ -4,6 +4,19 @@ My name is Asen and this is a public profile of my experience as an independent 
 
 Currently, I am actively participating in contests on platforms such as [Code4rena](https://code4rena.com/@0xAsen), [Sherlock](https://audits.sherlock.xyz/watson/0xAsen), and [CodeHawks](https://www.codehawks.com/profile/clk3vjbfh000kkx08mg4x5ug0).
 
+---
+
+## Highlights
+
+- **60+ accepted findings** accross Code4rena, Sherlock, Codehawks, Immunefi
+- **$10,000+ earned** in public audits
+- **Top 5 and Top 10 placements** in contests on Code4rena, Sherlock, and Immunefi
+- Audited protocols including **bridges, launchpads, DEXes, infrastructure**
+- Languages: **Solidity**, **Cairo**, **Rust**
+
+---
+
+
 ## Audit Contests
 Here’s a highlight of some of my public audit contest participations. This summary reflects my contributions in identifying critical vulnerabilities across various blockchain protocols. 
 
