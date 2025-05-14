@@ -19,14 +19,19 @@ These are five findings I particularly like - not solely because of their impact
 Note: Some findings link to Solodit report, but the full submissions — including my original writeups - are available in the next section.
 
 - [**A malicious actor can stuck other unsuspecting users' tokens forever - ArkProject | Codehawks**](https://solodit.cyfrin.io/issues/reentrancy-attack-to-make-an-nft-unbridgeable-codehawks-arkproject-nft-bridge-git)  
+  
   A complex reentrancy attack in ArkProject where a malicious actor could trap NFTs forever by manipulating escrow logic mid-transfer and then selling the compromised NFT. This finding stands out because it required connecting on-chain mechanics with user flows to create a griefing vector.
 - [**Harvest timing exploit enables theft of unclaimed yield - Yeet | Immunefi**](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Immunefi/Yeet.md)
+  
   A subtle economic exploit in a DeFi vault where share price manipulation allows an attacker to exploit unclaimed rewards. I like this finding because it required thinking beyond code — into how time, incentives, and accounting interact.
 - [**Liquidity migration DOS via token injection - IQ AI | Code4rena**](https://solodit.cyfrin.io/issues/m-02-attacker-can-dos-liquidity-migration-in-liquiditymanagersol-code4rena-iq-ai-iq-ai-git)
+  
   In IQ AI, an attacker could brick a key migration function by artificially inflating token balances. I like this one because it involved a very "innocent" root cause - simply using raw address balances to cause a denial of service.
 - [**SALT emissions can't be fully emitted if performUpkeep() is called too often due to a precision loss - Salty | Code4rena**](https://solodit.cyfrin.io/issues/m-23-stakingrewards-pools-are-not-given-their-promised-share-of-rewards-due-to-incorrect-calculation-code4rena-saltyio-saltyio-git)
+  
   This was a subtle but high-impact issue where repeated calls to performUpkeep() could lead to rounding down rewards to zero — permanently locking emissions in the contract. I like this one because it's not an obvious security bug — it’s an economic degradation that compounds over time, especially on fast L2s. It shows how low-level arithmetic and execution timing can quietly break tokenomics.
 - [**Cross-chain message always marked as SUCCESS due to weak handler return logic - Chakra | Code4rena**](https://solodit.cyfrin.io/issues/h-02-in-starknet-already-processed-messages-can-be-re-submitted-and-by-anyone-code4rena-chakra-chakra-git)
+  
   A message was always marked as successful - even if it failed silently - because the handler function returned true as long as it didn’t revert. I like this one because it reveals how protocols can mistakenly equate “no revert” with “success,” breaking critical invariants around transaction status. It also needed the ability to spot differences across implementations (Cairo vs Solidity) and reason about silent logic failures, which are often overlooked.
 
 ## Audit Contests
