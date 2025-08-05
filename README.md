@@ -57,13 +57,6 @@ For a complete view of my audit history, see my full profile [here](https://audi
 
 
 ## Private Audits
-
-| Name                                                      | Type of protocol | # of findings and severity | Report                                                                                                 |
-| :-------------------------------------------------------- | :--------------- | :------------------------- | :----------------------------------------------------------------------------------------------------- |
-| [Ponz]() | Unlimited upside sports betting     | 1 High, 2 Medium, 4 Low              | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Private%20audits/EventShares.md) |
-| [EventShares]() | Unlimited upside sports betting     | 1 High, 2 Medium, 4 Low              | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Private%20audits/EventShares.md) |
-| [ArtStakes](https://github.com/owl11/ArtStakes/tree/main) | NFT, Bridge      | 3 High, 3 Low              | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Private%20audits/ArtStakes.md) |
-
 | Name                                                      | Type of protocol                   | Language  | # of findings and severity   | Performed for      | Report                                                                                                 |
 | :-------------------------------------------------------- | :--------------------------------- | :-------- | :--------------------------- | :----------------- | :----------------------------------------------------------------------------------------------------- |
 | [Ponz]()                                                  | Launchpad                          | Rust  | 5 High, 1 Medium, 1 Low      | Hashlock (Solo)           | [Link](https://hashlock.com/audits/ponz)                                                                                              |
