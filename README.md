@@ -11,16 +11,11 @@ Here's a quick overview of my track record in Web3 security research:
 - 💰 **$10,000+ earned** in public contests
 - 🥇 **Top 5 and Top 10 placements** in contests on Code4rena, Sherlock, and Immunefi
 - 🧪 Audited protocols including **bridges, launchpads, DEXes, and infrastructure**
-- ⚒️ Languages: **Solidity**, **Cairo**
+- ⚒️ Found bugs in different languages: **Solidity**, **Cairo**, **Rust**, **ChiaLisp**
 
-## Top 5 Personal Favorite Findings
-These are five findings I particularly like - not solely because of their impact, but because they reflect different aspects: subtle logic, economic insight, griefing vectors, and cross-chain reasoning. Each one required different thinking to find. 
+## Top 3 Personal Favorite Findings
+These are three findings I particularly like - not solely because of their impact, but because they reflect different aspects: subtle logic, economic insight, griefing vectors, and cross-chain reasoning. Each one required different thinking to find. 
 
-Note: Some findings link to Solodit report, but the full submissions — including my original writeups - are available in the next section.
-
-- [**A malicious actor can stuck other unsuspecting users' tokens forever - ArkProject | Codehawks**](https://solodit.cyfrin.io/issues/reentrancy-attack-to-make-an-nft-unbridgeable-codehawks-arkproject-nft-bridge-git)  
-  
-  A complex reentrancy attack in ArkProject where a malicious actor could trap NFTs forever by manipulating escrow logic mid-transfer and then selling the compromised NFT. This finding stands out because it required connecting on-chain mechanics with user flows to create a griefing vector.
 - [**Harvest timing exploit enables theft of unclaimed yield - Yeet | Immunefi**](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Immunefi/Yeet.md)
   
   A subtle economic exploit in a DeFi vault where share price manipulation allows an attacker to exploit unclaimed rewards. I like this finding because it required thinking beyond code — into how time, incentives, and accounting interact.
@@ -29,8 +24,6 @@ Note: Some findings link to Solodit report, but the full submissions — includi
   In IQ AI, an attacker could brick a key migration function by artificially inflating token balances. I like this one because it involved a very "innocent" root cause - simply using raw address balances to cause a denial of service.
 - [**SALT emissions can't be fully emitted if performUpkeep() is called too often due to a precision loss - Salty | Code4rena**](https://solodit.cyfrin.io/issues/m-23-stakingrewards-pools-are-not-given-their-promised-share-of-rewards-due-to-incorrect-calculation-code4rena-saltyio-saltyio-git)
   
-  This was a subtle but high-impact issue where repeated calls to performUpkeep() could lead to rounding down rewards to zero — permanently locking emissions in the contract. I like this one because it's not an obvious security bug — it’s an economic degradation that compounds over time, especially on fast L2s. It shows how low-level arithmetic and execution timing can quietly break tokenomics.
-- [**Cross-chain message always marked as SUCCESS due to weak handler return logic - Chakra | Code4rena**](https://solodit.cyfrin.io/issues/h-02-in-starknet-already-processed-messages-can-be-re-submitted-and-by-anyone-code4rena-chakra-chakra-git)
   
   A message was always marked as successful - even if it failed silently - because the handler function returned true as long as it didn’t revert. I like this one because it reveals how protocols can mistakenly equate “no revert” with “success,” breaking critical invariants around transaction status. It also needed the ability to spot differences across implementations (Cairo vs Solidity) and reason about silent logic failures, which are often overlooked.
 
@@ -43,6 +36,7 @@ For a complete view of my audit history, see my full profile [here](https://audi
 
 | Contest                                                                                                         | Year | Platform  | Type of protocol                                      | # of findings and severity | My findings                                                                                      | Language         | Rank |
 | :-------------------------------------------------------------------------------------------------------------- | :--- | :-------- | :---------------------------------------------------- | :------------------------- | :------------------------------------------------------------------------------------------------ | :--------------- | :--- |
+| [CircuitDAO](https://cantina.xyz/code/7d650b99-8a40-49d1-9b65-2b060accfbb7/overview)                                                       | 2025 | Cantina  | CDP protocol                                                   | 1 Medium           | [Link]()         | ChiaLisp         | 14   |
 | [Starknet Perps](https://code4rena.com/audits/2025-03-starknet-perpetual)                                                       | 2025 | Code4rena  | Perpetuals DEX                                                   | 1 High          | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Code4rena/StarknetPerpetuals.md)         | Cairo         | -   |
 | [Yeet](https://immunefi.com/audit-competition/audit-comp-yeet/leaderboard/#top)                                                       | 2025 | Immunefi  | Gamified DeFi protocol                                                   | 1 Medium           | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Immunefi/Yeet.md)         | Solidity         | 7   |
 | [Recall](https://code4rena.com/audits/2025-02-recall)                                                       | 2025 | Code4rena  | Intelligence network for AI agents                                                   | 1 High, 1 Medium           | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Code4rena/Recall.md)         | Solidity & Rust        | 5   |
@@ -66,8 +60,16 @@ For a complete view of my audit history, see my full profile [here](https://audi
 
 | Name                                                      | Type of protocol | # of findings and severity | Report                                                                                                 |
 | :-------------------------------------------------------- | :--------------- | :------------------------- | :----------------------------------------------------------------------------------------------------- |
-| [ArtStakes](https://github.com/owl11/ArtStakes/tree/main) | NFT, Bridge      | 3 High, 3 Low              | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Private%20audits/ArtStakes.md) |
+| [Ponz]() | Unlimited upside sports betting     | 1 High, 2 Medium, 4 Low              | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Private%20audits/EventShares.md) |
 | [EventShares]() | Unlimited upside sports betting     | 1 High, 2 Medium, 4 Low              | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Private%20audits/EventShares.md) |
+| [ArtStakes](https://github.com/owl11/ArtStakes/tree/main) | NFT, Bridge      | 3 High, 3 Low              | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Private%20audits/ArtStakes.md) |
+
+| Name                                                      | Type of protocol                   | Language  | # of findings and severity   | Performed for      | Report                                                                                                 |
+| :-------------------------------------------------------- | :--------------------------------- | :-------- | :--------------------------- | :----------------- | :----------------------------------------------------------------------------------------------------- |
+| [Ponz]()                                                  | Launchpad                          | Rust  | 5 High, 1 Medium, 1 Low      | Hashlock (Solo)           | [Link](https://hashlock.com/audits/ponz)                                                                                              |
+| [EventShares]()                                           | Unlimited upside sports betting    | Solidity  | 1 High, 2 Medium, 4 Low      | Independent (Solo)       | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Private%20audits/EventShares.md)                                                                                              |
+| [ArtStakes](https://github.com/owl11/ArtStakes/tree/main) | NFT, Bridge                        | Solidity     | 3 High, 3 Low                | Independent (Solo)     | [Link](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Private%20audits/ArtStakes.md)                                                                                              |
+
 
 ## Contacts
 
