@@ -18,7 +18,7 @@ Below is a curated list of my public audit contest contributions.
 
 Each entry reflects findings that were accepted and rewarded for identifying vulnerabilities across real-world protocols.
 
-For a more detailed view of my audit history, see my profile [here](https://audits.sherlock.xyz/watson/0xAsen)(*couple of reports missing due to not released reports by C4*).
+For a more detailed view of my audit history, see my profile [here](https://audits.sherlock.xyz/watson/0xAsen)(*couple of results missing due to not released reports by C4*).
 
 | Contest                                                                                                         | Year | Platform  | Type of protocol                                      | # of findings and severity | My findings                                                                                      | Language         | Rank |
 | :-------------------------------------------------------------------------------------------------------------- | :--- | :-------- | :---------------------------------------------------- | :------------------------- | :------------------------------------------------------------------------------------------------ | :--------------- | :--- |
