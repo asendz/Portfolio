@@ -13,20 +13,6 @@ Here's a quick overview of my track record in Web3 security research:
 - 🧪 Audited protocols including **bridges, launchpads, DEXes, and infrastructure**
 - ⚒️ Found bugs in different languages: **Solidity**, **Cairo**, **Rust**, **ChiaLisp**
 
-## Top 3 Personal Favorite Findings
-These are three findings I particularly like - not solely because of their impact, but because they reflect different aspects: subtle logic, economic insight, griefing vectors, and cross-chain reasoning. Each one required different thinking to find. 
-
-- [**Harvest timing exploit enables theft of unclaimed yield - Yeet | Immunefi**](https://github.com/asendz/Portfolio/blob/main/Security%20Reports/Immunefi/Yeet.md)
-  
-  A subtle economic exploit in a DeFi vault where share price manipulation allows an attacker to exploit unclaimed rewards. I like this finding because it required thinking beyond code — into how time, incentives, and accounting interact.
-- [**Liquidity migration DOS via token injection - IQ AI | Code4rena**](https://solodit.cyfrin.io/issues/m-02-attacker-can-dos-liquidity-migration-in-liquiditymanagersol-code4rena-iq-ai-iq-ai-git)
-  
-  In IQ AI, an attacker could brick a key migration function by artificially inflating token balances. I like this one because it involved a very "innocent" root cause - simply using raw address balances to cause a denial of service.
-- [**SALT emissions can't be fully emitted if performUpkeep() is called too often due to a precision loss - Salty | Code4rena**](https://solodit.cyfrin.io/issues/m-23-stakingrewards-pools-are-not-given-their-promised-share-of-rewards-due-to-incorrect-calculation-code4rena-saltyio-saltyio-git)
-  
-  
-  A message was always marked as successful - even if it failed silently - because the handler function returned true as long as it didn’t revert. I like this one because it reveals how protocols can mistakenly equate “no revert” with “success,” breaking critical invariants around transaction status. It also needed the ability to spot differences across implementations (Cairo vs Solidity) and reason about silent logic failures, which are often overlooked.
-
 ## Audit Contests
 Below is a curated list of my public audit contest contributions.
 
