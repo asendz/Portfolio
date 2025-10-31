@@ -11,7 +11,7 @@ Here's a quick overview of my track record in Web3 security research:
 - 💰 **$10,000+ earned** in public contests
 - 🥇 **Top 5 and Top 10 placements** in contests on Code4rena, Sherlock, and Immunefi
 - 🧪 Audited protocols including **bridges, launchpads, DEXes, and infrastructure**
-- ⚒️ Found bugs in different languages: **Solidity**, **Cairo**, **Rust**, **ChiaLisp**
+- ⚒️ Found bugs in different languages: **Solidity**, **Cairo**, **Rust**, **Vyper**,**ChiaLisp**
 
 ## Audit Contests
 Below is a curated list of my public audit contest contributions.
@@ -55,3 +55,4 @@ For a more detailed view of my audit history, see my profile [here](https://audi
 ## Contacts
 
 You can find me on Twitter [@asen_sec](https://twitter.com/asen_sec).
+Discord: yesofcourse_
