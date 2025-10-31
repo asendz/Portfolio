@@ -7,7 +7,7 @@ I actively participate in audit contests on platforms like [Code4rena](https://c
 
 ## Highlights
 Here's a quick overview of my track record in Web3 security research:
-- 🧠 **60+ accepted findings** accross Code4rena, Sherlock, Codehawks, Immunefi
+- 🧠 **70+ accepted findings** accross Code4rena, Sherlock, Codehawks, Immunefi
 - 💰 **$10,000+ earned** in public contests
 - 🥇 **Top 5 and Top 10 placements** in contests on Code4rena, Sherlock, and Immunefi
 - 🧪 Audited protocols including **bridges, launchpads, DEXes, and infrastructure**
